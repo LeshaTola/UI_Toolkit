@@ -1,0 +1,22 @@
+.background {
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-self: auto;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgb(238, 238, 238);
+}
+
+.mouth {
+    flex-grow: 0;
+    background-color: rgb(212, 212, 212);
+    flex-direction: row;
+}
