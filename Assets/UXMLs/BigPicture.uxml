@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/USSs/Screens.uss?fileID=7433441132597879392&amp;guid=e7b1f8c2fa01a314c8d3fe11c2c03c72&amp;type=3#Screens" />
+    <ui:VisualElement name="Root" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: stretch; margin-right: 4%; margin-left: 4%; margin-top: 2%; margin-bottom: 2%; justify-content: flex-start; height: 1094px;">
+        <ui:VisualElement name="Picture" style="flex-grow: 1;">
+            <ui:VisualElement name="Image" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/Backgrounds/desktop-wallpaper-lofoten-8k-norway-lake-mountains-house-horizontal-norway-nature-sunrise-lofoten.jpg?fileID=2800000&amp;guid=8e08418aec4b7f94b85523c411fb3e5e&amp;type=3#desktop-wallpaper-lofoten-8k-norway-lake-mountains-house-horizontal-norway-nature-sunrise-lofoten&apos;); border-top-left-radius: 80px; border-bottom-left-radius: 80px; border-top-right-radius: 80px; border-bottom-right-radius: 80px; -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Text" style="overflow: hidden; flex-grow: 0;">
+            <ui:VisualElement name="MainTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; height: 100px;">
+                <ui:Label tabindex="-1" text="Main Text" display-tooltip-when-elided="true" name="MainText" class="main-text" style="flex-shrink: 1;" />
+                <ui:VisualElement name="RaitingContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+                    <ui:VisualElement name="StarImage" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/FlatIcons/04d5ebba571926c9f01796521b97e662.png?fileID=2800000&amp;guid=7e6eee04c8ebae549ad3596012be9531&amp;type=3#04d5ebba571926c9f01796521b97e662&apos;); width: 100px;" />
+                    <ui:Label tabindex="-1" text="4.9(900)" display-tooltip-when-elided="true" style="-unity-text-align: middle-left; -unity-font-style: bold; width: auto; font-size: 24px; overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="SubTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 100px;">
+                <ui:Label tabindex="-1" text="Sub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub textSub text" display-tooltip-when-elided="true" name="SubText" class="sub-text" style="flex-shrink: 1; flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
