@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/USSs/Screens.uss?fileID=7433441132597879392&amp;guid=e7b1f8c2fa01a314c8d3fe11c2c03c72&amp;type=3#Screens" />
+    <ui:VisualElement name="FullImageTemplate" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 250px; margin-left: 4%; margin-right: 4%; margin-top: 2%; margin-bottom: 2%; height: 300px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: stretch; align-self: auto; flex-wrap: nowrap; flex-shrink: 0;">
+        <ui:VisualElement name="Image" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/d3255b05b93471c207c12acb16ef5bc7.jpg?fileID=2800000&amp;guid=e75164ef9ab4bb34092e25c67b0b51bb&amp;type=3#d3255b05b93471c207c12acb16ef5bc7&apos;); border-top-left-radius: 45px; border-bottom-left-radius: 45px; border-top-right-radius: 45px; border-bottom-right-radius: 45px; width: 250px; height: 250px; align-self: auto; overflow: visible; -unity-background-scale-mode: stretch-to-fill;" />
+        <ui:VisualElement name="TextContainer" class="main-text" style="flex-grow: 0; overflow: hidden;">
+            <ui:Label tabindex="-1" text="MainText" display-tooltip-when-elided="true" name="FullImaegMainText" class="main-text" style="-unity-text-align: middle-center; font-size: 39px; height: 50px; overflow: visible;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

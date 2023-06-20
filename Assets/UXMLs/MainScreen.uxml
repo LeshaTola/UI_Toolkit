@@ -1,4 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="BigPicture" src="project://database/Assets/UXMLs/BigPicture.uxml?fileID=9197481963319205126&amp;guid=d292553ed6de07041977facbd2ec0037&amp;type=3#BigPicture" />
+    <ui:Template name="ManyImages" src="project://database/Assets/UXMLs/ManyImages.uxml?fileID=9197481963319205126&amp;guid=fe587367d2aaa464ebd027ce966db73c&amp;type=3#ManyImages" />
     <Style src="project://database/Assets/USSs/Screens.uss?fileID=7433441132597879392&amp;guid=e7b1f8c2fa01a314c8d3fe11c2c03c72&amp;type=3#Screens" />
     <ui:VisualElement name="Background" class="background" style="flex-direction: column; align-items: stretch; justify-content: space-around;">
         <ui:VisualElement name="Top" class="mouth" style="border-top-left-radius: 45px; border-top-right-radius: 45px; height: 12%; padding-left: 2%; padding-right: 2%; padding-top: 2%; padding-bottom: 2%; justify-content: space-between; align-items: stretch;">
@@ -16,7 +18,12 @@
                 <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/FlatIcons/icone-de-parametres-et-de-parametres-gris.png?fileID=2800000&amp;guid=66dec8fc65e6ec344b98f608e6eb18db&amp;type=3#icone-de-parametres-et-de-parametres-gris&apos;); scale: 0.5 0.5; -unity-background-image-tint-color: rgb(0, 0, 0);" />
             </ui:Button>
         </ui:VisualElement>
-        <ui:VisualElement name="Bottom" class="mouth" style="flex-grow: 0; height: 8%; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-left-color: rgba(224, 224, 224, 0); border-right-color: rgba(224, 224, 224, 0); border-top-color: rgba(224, 224, 224, 0); border-bottom-color: rgba(224, 224, 224, 0); justify-content: space-around; align-items: center;">
+        <ui:ScrollView scroll-deceleration-rate="0.135" elasticity="0,1" touch-scroll-type="Elastic" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" nested-interaction-kind="Default" style="height: 79%; flex-grow: 0; align-self: auto;">
+            <ui:Instance template="BigPicture" name="BigPicture" style="height: 900px;" />
+            <ui:Instance template="ManyImages" name="ManyImages" />
+            <ui:Instance template="BigPicture" name="BigPicture" style="height: 900px;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="Bottom" class="mouth" style="flex-grow: 0; height: 10%; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-left-color: rgba(224, 224, 224, 0); border-right-color: rgba(224, 224, 224, 0); border-top-color: rgba(224, 224, 224, 0); border-bottom-color: rgba(224, 224, 224, 0); justify-content: space-around; align-items: center;">
             <ui:Button display-tooltip-when-elided="true" name="SerchScreen" class="topMouthButton bottom-mouth-buttons" style="width: 125px; flex-grow: 0; height: auto; align-self: stretch;" />
             <ui:Button display-tooltip-when-elided="true" name="FavoriteScreen" class="topMouthButton bottom-mouth-buttons" style="width: 125px; flex-grow: 0; height: auto; align-self: stretch; background-image: url(&apos;project://database/Assets/Images/FlatIcons/HeartIcon.png?fileID=2800000&amp;guid=0f16a3a8875d29846bc21b5c2d3594e1&amp;type=3#HeartIcon&apos;);" />
             <ui:Button display-tooltip-when-elided="true" name="NotepadScreen" class="topMouthButton bottom-mouth-buttons" style="width: 125px; flex-grow: 0; height: auto; align-self: stretch; background-image: url(&apos;project://database/Assets/Images/FlatIcons/NicePng_google-photos-icon-png_3378960.png?fileID=2800000&amp;guid=9d1c741b215266841a487060723ad122&amp;type=3#NicePng_google-photos-icon-png_3378960&apos;); scale: 0.65 0.75;" />

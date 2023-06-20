@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="FullImageTemplate" src="project://database/Assets/UXMLs/FullImageTemplate.uxml?fileID=9197481963319205126&amp;guid=e851c794b0223734cba16fdc6573d9f9&amp;type=3#FullImageTemplate" />
+    <ui:VisualElement name="ManyImages" class="templates-margin" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: 450px;">
+        <ui:VisualElement name="TextContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); margin-left: 2%; margin-right: 2%;">
+            <ui:Label tabindex="-1" text="Try Something Different" display-tooltip-when-elided="true" name="MainText" class="main-text" style="font-size: 48px;" />
+            <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="SubText" class="sub-text" style="font-size: 24px;" />
+        </ui:VisualElement>
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="ScrollView" mode="Horizontal" touch-scroll-type="Elastic" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" focusable="false" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; align-items: flex-start; justify-content: space-around; background-color: rgba(0, 0, 0, 0);">
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+            <ui:Instance template="FullImageTemplate" name="FullImageTemplate" style="width: 275px; height: 320px;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

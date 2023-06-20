@@ -1,8 +1,8 @@
 .background {
     flex-grow: 1;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-self: auto;
     border-left-width: 0;
     border-right-width: 0;
@@ -52,7 +52,7 @@
     -unity-font-style: bold;
     -unity-text-align: middle-left;
     overflow: hidden;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .sub-text {
@@ -64,4 +64,11 @@
     text-overflow: clip;
     white-space: normal;
     flex-grow: 2;
+}
+
+.templates-margin {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
