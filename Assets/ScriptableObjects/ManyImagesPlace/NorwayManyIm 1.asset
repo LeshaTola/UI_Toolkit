@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3e340caf6e1df48a5f962e8fe441a7, type: 3}
+  m_Name: NorwayManyIm 1
+  m_EditorClassIdentifier: 
+  templatesSOList:
+  - {fileID: 11400000, guid: 975f28adbe482dc4993f11163005481c, type: 2}
+  - {fileID: 11400000, guid: 98f5190faeba86c40ac56b18741192b9, type: 2}
+  - {fileID: 11400000, guid: dd312d76d7d0dfa4ebe4eb74edccd7ca, type: 2}
+  manyImagesTemplate: {fileID: 2320102887685378703, guid: a315d8e94a6e59b4883394ba11e54ade, type: 3}

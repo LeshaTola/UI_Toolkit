@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/USSs/Screens.uss?fileID=7433441132597879392&amp;guid=e7b1f8c2fa01a314c8d3fe11c2c03c72&amp;type=3#Screens" />
+    <ui:VisualElement name="Root" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: stretch; margin-right: 4%; margin-left: 4%; margin-top: 4%; margin-bottom: 0; justify-content: flex-start; height: auto;">
+        <ui:Button display-tooltip-when-elided="true" name="MainImageButton" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 45px; border-bottom-left-radius: 45px; border-top-right-radius: 45px; border-bottom-right-radius: 45px; background-image: url(&apos;project://database/Assets/Images/Backgrounds/desktop-wallpaper-lofoten-8k-norway-lake-mountains-house-horizontal-norway-nature-sunrise-lofoten.jpg?fileID=2800000&amp;guid=8e08418aec4b7f94b85523c411fb3e5e&amp;type=3#desktop-wallpaper-lofoten-8k-norway-lake-mountains-house-horizontal-norway-nature-sunrise-lofoten&apos;); -unity-background-scale-mode: scale-and-crop; flex-basis: 860px; align-items: flex-start;" />
+        <ui:VisualElement name="Text" style="overflow: hidden; flex-grow: 0;">
+            <ui:VisualElement name="MainTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; height: 100px; flex-shrink: 0;">
+                <ui:Label tabindex="-1" text="Main Text" display-tooltip-when-elided="true" name="Title" class="main-text" style="flex-shrink: 1;" />
+                <ui:VisualElement name="RaitingContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+                    <ui:VisualElement name="StarImage" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/FlatIcons/04d5ebba571926c9f01796521b97e662.png?fileID=2800000&amp;guid=7e6eee04c8ebae549ad3596012be9531&amp;type=3#04d5ebba571926c9f01796521b97e662&apos;); width: 100px;" />
+                    <ui:Label tabindex="-1" text="4.9(900)" display-tooltip-when-elided="true" name="RatingLable" style="-unity-text-align: middle-left; -unity-font-style: bold; width: auto; font-size: 24px; overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="SubTextContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); height: auto; flex-basis: auto;">
+                <ui:Label tabindex="-1" text="SubText" display-tooltip-when-elided="true" name="SubTitle" class="sub-text" style="flex-shrink: 1; flex-grow: 0; -unity-text-align: upper-left;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

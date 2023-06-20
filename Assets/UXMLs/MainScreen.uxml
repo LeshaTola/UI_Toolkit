@@ -18,10 +18,10 @@
                 <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Images/FlatIcons/icone-de-parametres-et-de-parametres-gris.png?fileID=2800000&amp;guid=66dec8fc65e6ec344b98f608e6eb18db&amp;type=3#icone-de-parametres-et-de-parametres-gris&apos;); scale: 0.5 0.5; -unity-background-image-tint-color: rgb(0, 0, 0);" />
             </ui:Button>
         </ui:VisualElement>
-        <ui:ScrollView scroll-deceleration-rate="0.135" elasticity="0,1" touch-scroll-type="Elastic" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" nested-interaction-kind="Default" style="height: 79%; flex-grow: 0; align-self: auto;">
-            <ui:Instance template="BigPicture" name="BigPicture" style="height: 900px;" />
+        <ui:ScrollView scroll-deceleration-rate="0.135" elasticity="0,1" touch-scroll-type="Elastic" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" nested-interaction-kind="Default" name="MainInformation" style="height: 79%; flex-grow: 0; align-self: auto;">
+            <ui:Instance template="BigPicture" name="BigPicture" />
             <ui:Instance template="ManyImages" name="ManyImages" />
-            <ui:Instance template="BigPicture" name="BigPicture" style="height: 900px;" />
+            <ui:Instance template="BigPicture" name="BigPicture" />
         </ui:ScrollView>
         <ui:VisualElement name="Bottom" class="mouth" style="flex-grow: 0; height: 10%; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-left-color: rgba(224, 224, 224, 0); border-right-color: rgba(224, 224, 224, 0); border-top-color: rgba(224, 224, 224, 0); border-bottom-color: rgba(224, 224, 224, 0); justify-content: space-around; align-items: center;">
             <ui:Button display-tooltip-when-elided="true" name="SerchScreen" class="topMouthButton bottom-mouth-buttons" style="width: 125px; flex-grow: 0; height: auto; align-self: stretch;" />
